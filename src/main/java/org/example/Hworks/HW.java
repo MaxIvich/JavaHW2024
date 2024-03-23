@@ -1,4 +1,4 @@
-package org.example;
+package org.example.Hworks;
 
 public class HW {
     /*
@@ -63,6 +63,7 @@ public class HW {
         System.out.println(evenNumbers(numbers));
         System.out.println(arrMinMaxDif(numbers));
         System.out.println(ifDoubleZero(numbers));
+        
 
     }
 
