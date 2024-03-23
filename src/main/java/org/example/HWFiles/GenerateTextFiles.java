@@ -33,12 +33,10 @@ public class GenerateTextFiles {
         File dir = new File(path);
         File file1 = new File(dir, fileName);
           if(file1.exists()){
-                  System.out.println(" Тфкой файл уже существует ");
-                 // fileDelete(file1.toPath());
-                  return;
+              System.out.println(" Тфкой файл уже существует ");
+              fileDelete(file1.toPath());
+
           }
-
-
           try {
             file1.createNewFile();
             if(file1.isFile()){

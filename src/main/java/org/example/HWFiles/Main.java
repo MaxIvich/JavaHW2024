@@ -10,11 +10,13 @@ public class Main {
 
         GenerateTextFiles GenerateTextFiles = new GenerateTextFiles();
         Backup backup = new Backup();
-        // GenerateTextFiles.textGeneration();
-       // GenerateTextFiles.fileCreate(filename1,path );
-       // GenerateTextFiles.fileCreate(filename2,path );
-       // GenerateTextFiles.fileCreate(filename3,path );
-        backup.backup(path);
+        //GenerateTextFiles.textGeneration();
+
+       GenerateTextFiles.fileCreate(filename1,path );
+       GenerateTextFiles.fileCreate(filename2,path );
+       GenerateTextFiles.fileCreate(filename3,path );
+
+       backup.backup(path);
 
 
 
